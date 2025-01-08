@@ -1,7 +1,15 @@
 import { FaFileAlt, FaGithub, FaLinkedin } from "react-icons/fa";
 import { SECTIONS } from "../constants";
+import { Link, scrollSpy } from "react-scroll";
+import { useEffect, useState } from "react";
 
-const Sidebar = ({ activeSection }: { activeSection: string }) => {
+const Sidebar = () => {
+	const [activeSection, setActiveSection] = useState("");
+
+	useEffect(() => {
+		scrollSpy.update();
+	}, []);
+
 	return (
 		<div className="lg:flex lg:flex-col h-full justify-between">
 			<div>
@@ -13,21 +21,26 @@ const Sidebar = ({ activeSection }: { activeSection: string }) => {
 
 				<nav className="hidden lg:block lg:space-y-6 lg:mt-16">
 					{SECTIONS.map((section) => (
-						<a
-							href={`#${section.id}`}
+						<Link
+							to={section.id}
 							key={section.id}
+							spy={true}
+							smooth={true}
+							offset={-96}
+							duration={250}
+							onSetActive={() => setActiveSection(section.id)}
 							className={`flex items-center text-lg font-medium ${
 								activeSection === section.id ? "text-[#0855b1] font-bold" : "hover:text-[#0855b1]"
 							}`}
 						>
 							{activeSection === section.id && <span className="text-[#0855b1] mr-2">{">"}</span>}
 							<span>{section.label}</span>
-						</a>
+						</Link>
 					))}
 				</nav>
 			</div>
 
-			<div className="flex space-x-6 mt-6 mb-20 lg:mt-10 lg:mb-0 ">
+			<div className="flex space-x-6 mt-6 mb-20 lg:mt-10 lg:mb-0">
 				<a
 					href="https://github.com/kyle12803"
 					target="_blank"

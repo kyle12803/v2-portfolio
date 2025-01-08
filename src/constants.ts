@@ -115,6 +115,20 @@ export const PROJECTS = [
 		githubLink: "https://github.com/kyle12803/kanbas-react-web-app",
 	},
 	{
+		image: "/projects/youtube.png",
+		title: "Youtube Popularity Prediction",
+		description:
+			"Developed a machine learning pipeline to predict YouTube video popularity based on metadata and early engagement metrics.",
+		technologies: [
+			"Python",
+			"Pandas",
+			"NumPy",
+			"Scikit-learn",
+			"Plotly",
+			"Google YouTube Data API V3",
+		],
+	},
+	{
 		image: "/projects/image_processor.png",
 		title: "Image Processor",
 		description:

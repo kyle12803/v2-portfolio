@@ -18,11 +18,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
 	demoLink,
 }) => {
 	return (
-		<div className="bg-gray-100 -left-4 p-4 rounded-lg  flex items-start space-x-4 w-[calc(100%+2rem)] relative">
+		<div className="bg-gray-100 -left-4 p-4 rounded-lg flex flex-col sm:flex-row items-start space-y-3 sm:space-y-0 sm:space-x-4 w-[calc(100%+2rem)] relative">
 			<img
 				src={image}
 				alt={title}
-				className="h-24 w-40 object-fill rounded-lg border border-gray-300"
+				className="h-32 w-52 sm:h-24 sm:w-40 object-fill rounded-lg border border-gray-300"
 			/>
 
 			<div className="flex-1">
