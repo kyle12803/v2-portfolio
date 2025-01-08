@@ -11,7 +11,7 @@ const Sidebar = ({ activeSection }: { activeSection: string }) => {
 					B.S. in Computer Science and Business Administration
 				</p>
 
-				<nav className="space-y-6 mt-16">
+				<nav className="hidden lg:block lg:space-y-6 lg:mt-16">
 					{SECTIONS.map((section) => (
 						<a
 							href={`#${section.id}`}
@@ -27,7 +27,7 @@ const Sidebar = ({ activeSection }: { activeSection: string }) => {
 				</nav>
 			</div>
 
-			<div className="flex space-x-6 mt-10">
+			<div className="flex space-x-6 mt-6 mb-20 lg:mt-10 lg:mb-0 ">
 				<a
 					href="https://github.com/kyle12803"
 					target="_blank"

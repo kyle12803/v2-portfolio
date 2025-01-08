@@ -1,50 +1,19 @@
-# React + TypeScript + Vite
+# **Personal Portfolio**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website to showcase a little about myself, experiences, my projects, and skills as a software engineer. The website highlights my up-to-date work experience and projects, and provides visitors with a seamless way to learn more about me and access my professional resources.
 
-Currently, two official plugins are available:
+The format and organization was inspired by the work of Brittany Chiang.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ **Tech Stack**
 
-## Expanding the ESLint configuration
+- **Frontend**: TypeScript, React, Vite, Tailwind CSS
+- **Icons**: React Icons
+- **Deployment**: Vercel
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 📬 **Contact**
 
-- Configure the top-level `parserOptions` property like this:
+Feel free to reach out via **[LinkedIn](https://www.linkedin.com/in/kylechung03)** or email me at **kylechung03@gmail.com**.
 
-```js
-export default tseslint.config({
-	languageOptions: {
-		// other options...
-		parserOptions: {
-			project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-			tsconfigRootDir: import.meta.dirname,
-		},
-	},
-});
-```
+## 📝 **Acknowledgments**
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from "eslint-plugin-react";
-
-export default tseslint.config({
-	// Set the react version
-	settings: { react: { version: "18.3" } },
-	plugins: {
-		// Add the react plugin
-		react,
-	},
-	rules: {
-		// other rules...
-		// Enable its recommended rules
-		...react.configs.recommended.rules,
-		...react.configs["jsx-runtime"].rules,
-	},
-});
-```
+The format and organization of this portfolio were inspired by the work of [Brittany Chiang](https://brittanychiang.com).
