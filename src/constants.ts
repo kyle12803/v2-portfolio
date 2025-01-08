@@ -60,7 +60,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
 	{
-		image: "/src/assets/ezracooper.png",
+		image: "/projects/ezracooper.png",
 		title: "Dr. Ezra Cooper Website",
 		description:
 			"Responsive website for Dr. Ezra Cooper, a chiropractor in Syosset, NY, featuring details of services offered, office pictures, and a contact form",
@@ -69,14 +69,14 @@ export const PROJECTS = [
 		demoLink: "https://drezracooper.vercel.app/home",
 	},
 	{
-		image: "/src/assets/spreadsheet.png",
+		image: "/projects/spreadsheet.png",
 		title: "Spreadsheet Application",
 		description:
 			"Dynamic spreadsheet application supporting cell formulas, references, range expressions, and more.",
 		technologies: ["TypeScript", "React.js", "Jest", "Tailwind CSS", "Peggy", "Recharts"],
 	},
 	{
-		image: "/src/assets/makemoney.png",
+		image: "/projects/makemoney.png",
 		title: "MakeMoney",
 		description:
 			"Stock tracking tool that allows users to sign up, manage portfolios with public and private watchlists, and explore other user's profiles.",
@@ -97,7 +97,7 @@ export const PROJECTS = [
 		demoLink: "https://main--mellifluous-hotteok-2f6aed.netlify.app/#/MakeMoney/Home",
 	},
 	{
-		image: "/src/assets/kanbas.png",
+		image: "/projects/kanbas.png",
 		title: "Kanbas",
 		description:
 			"A learning management system inspired by Canvas LMS, allowing educators to manage courses, assignments, modules, enrollments, and grades.",
@@ -115,7 +115,7 @@ export const PROJECTS = [
 		githubLink: "https://github.com/kyle12803/kanbas-react-web-app",
 	},
 	{
-		image: "/src/assets/image_processor.png",
+		image: "/projects/image_processor.png",
 		title: "Image Processor",
 		description:
 			"Image processing application with CLI and GUI, built using the command design pattern and MVC/OOD principles, supporting image manipulation, enhancement, partial edits, and multi-format import/export.",
@@ -123,21 +123,21 @@ export const PROJECTS = [
 		githubLink: "https://github.com/kyle12803/ImageProcessing",
 	},
 	{
-		image: "/src/assets/marble_solitaire.png",
+		image: "/projects/marble_solitaire.png",
 		title: "Marble Solitaire",
 		description:
 			"A command-line game that simulates marble solitaire, built using MVC/OOD principles featuring multiple board types and configurations, with functionality to move, flip, and remove marbles following game rules.",
 		technologies: ["Java", "JUnit 4"],
 	},
 	{
-		image: "/src/assets/maze_search.png",
+		image: "/projects/maze_search.png",
 		title: "Maze Search",
 		description:
 			"Interactive maze game featuring random maze generation using Kruskal's algorithm and pathfinding with DFS and BFS.",
 		technologies: ["Java", "Javalib", "Tester"],
 	},
 	{
-		image: "/src/assets/ships_n_bullets.png",
+		image: "/projects/ships_n_bullets.png",
 		title: "ShipsNBullets",
 		description:
 			"Interactive space shooter game featuring dynamic ship spawning, collision detection, score tracking, and recursive data structures to manage game state and animations",
