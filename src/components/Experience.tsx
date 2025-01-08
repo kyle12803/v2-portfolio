@@ -1,4 +1,3 @@
-import React from "react";
 import { EXPERIENCES } from "../constants";
 import ExperienceCard from "./ExperienceCard";
 
