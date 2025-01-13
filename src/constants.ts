@@ -35,7 +35,7 @@ export const EXPERIENCES = [
 		duration: "June 2023 - Sept 2023",
 		description:
 			"Developed a large-scale data processing pipeline and created a visualization tool to support data analysis, helping the team make informed decisions on resource usage and partner data limits.",
-		technologies: ["C++", "Data Pipelines", "Google Bigtable", "Google Tesst"],
+		technologies: ["C++", "Data Pipelines", "Google Bigtable", "Google Test"],
 		link: "https://www.google.com/travel/search",
 	},
 	{
@@ -72,7 +72,7 @@ export const PROJECTS = [
 		image: "/projects/spreadsheet.png",
 		title: "Spreadsheet Application",
 		description:
-			"Dynamic spreadsheet application supporting cell formulas, references, range expressions, and more.",
+			"Dynamic spreadsheet application supporting cell formulas, references, range expressions, relative addressing, and more.",
 		technologies: ["TypeScript", "React.js", "Jest", "Tailwind CSS", "Peggy", "Recharts"],
 	},
 	{
